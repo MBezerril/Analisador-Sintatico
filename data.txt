@@ -1,0 +1,14 @@
+if a
+if a = bv
+a = 10
+b = 20 
+a=(a*b)+500
+asd123 = 2930.55
+
+program teste; {programa exemplo}
+	var
+		val=:==/*==or1: integer;
+		valor2: real;
+	begin
+		valor1 := 10;
+	end.

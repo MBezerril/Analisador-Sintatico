@@ -1,0 +1,38 @@
+PROGRAM Sort;
+    VAR
+        i, j, tmp, size: integer;
+
+        arr: real;
+
+    PROCEDURE readln(VAR size: Integer; VAR a: real);
+	VAR
+        aux, tmp2, size2: integer;
+		eof : boolean;
+        arr2: real;
+        BEGIN
+            size := 1;
+			aux := (800* i + j);
+			aux := (800 + i * j);
+            WHILE NOT eof DO 
+			BEGIN
+                readln(not true);
+                IF NOT eof THEN 
+                    size := size + 1
+            END
+        END;
+	
+    BEGIN
+        readln(size, arr);
+
+        WHILE i <> size DO
+            BEGIN
+                IF arr > arr*(j + 1) THEN 
+				BEGIN
+                    i := 1 + 1 + tmp;
+                    arr := arr;
+                    arr := tmp * j + 1
+                END
+			END;
+        readln(arr)
+    END.
+         
